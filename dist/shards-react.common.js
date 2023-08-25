@@ -1,7 +1,7 @@
 /*
 * Shards React v1.0.3 (https://designrevision.com/downloads/shards-react/)
 * Based on: Bootstrap ^4.1.3 (https://getbootstrap.com)
-* Based on: Shards ^2.1.2 (https://designrevision.com/downloads/shards/)
+* Based on: Shards bookeapp/shards-ui (https://designrevision.com/downloads/shards/)
 * Copyright 2017-2023 DesignRevision (https://designrevision.com)
 * Copyright 2017-2023 Catalin Vasile (http://catalin.me)
 */
