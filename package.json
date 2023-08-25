@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prebuild": "npm run clean && npm run lint",
-    "build": "rollup --c build/rollup.config.js && bundlesize",
+    "build": "rollup --c build/rollup.config.js",
     "lint": "node_modules/.bin/eslint components",
     "clean": "rimraf dist/*"
   },
@@ -33,15 +33,9 @@
     "component",
     "components"
   ],
-  "bundlesize": [
-    {
-      "path": "./dist/*.js"
-    }
-  ],
   "devDependencies": {
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
-    "bundlesize": "^0.17.0",
     "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",
     "react": "^16.6.3",
